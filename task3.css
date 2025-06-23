@@ -1,0 +1,184 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 56px 80px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(181, 236, 248);
+}
+
+.logo,
+header nav a, 
+.hero-product-about,
+.hero-product-details,
+.products-card figcaption {
+color: black;
+text-decoration: none;
+font-weight: 500;
+font-size: 20px 20px 20px;
+
+}
+.logo {
+    max-width: 300px;
+    margin-right: 10px;
+    
+}
+
+.logotype img {
+    max-width:100px;
+    margin: 20px;
+}
+
+header nav {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+
+}
+
+header button,
+.hero-product-description button{
+    background: rgb(23, 203, 231);
+    color: white;
+    width: px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+font-weight: 500;
+}
+
+.hero-product {
+    margin: 56px 0px 80 px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-product img {
+    width: 50%;
+    height: 100%;
+    margin:24px;
+}
+.hero-product-description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 515px;
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.hero-product-description h2,
+.hero-product-price,
+ .produts h2,
+ .footer-info h2 {
+    font-size: 24px;
+    line-height: 150%;
+
+}
+
+.hero-product-description h2,
+.hero-product-about,
+.hero-product-details,
+.products-card-about {
+    color: #828282;
+}
+
+.hero-product-description button{
+    width: unset;
+}
+
+.hero-product-details {
+    font-size: 16px;
+}
+
+.products-cards{
+    margin: 24px 0px 120px;
+    display: flex;
+    gap: 32px;
+}
+
+.products-card {
+    flex: auto;
+}
+
+.products-card img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.products-card h3 {
+    max-width: 300px;
+}
+.products-card figcaption {
+    margin-top: 24px;
+
+}
+
+.products-card-about{
+    max-width: 300px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E6E6E6;
+    padding-top: 48px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 187px;
+}
+.footer-links-list a,
+.footer-links h3 {
+    font-weight: 00;
+    line-height:00;
+    color: #454545;
+    text-decoration: none;
+}
+
+.footer-links h3{
+    color: black;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-media img:hover {
+    filter:brightness(50%)
+}
