@@ -346,12 +346,12 @@ footer{
             font-size: 32px;
         }
     }
-}
 
 @media screen and (max-width: 450px) {
     header{
         padding: 30px;
     }
+
     .logo{
         font-size: 20px;
     }
