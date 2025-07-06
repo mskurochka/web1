@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.back-to-main {
+    display: block;
+    margin: 20px;
+    width:max-content;
+}
 body {
     max-width: 1440px;
     margin: 0 auto;
